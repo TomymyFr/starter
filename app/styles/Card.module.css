@@ -21,3 +21,7 @@
     background-color: white;
     margin: 10px;
 }
+.prices:hover {
+    background-color: #d5fdf4;
+    cursor: pointer;
+}

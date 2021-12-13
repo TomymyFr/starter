@@ -3,7 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c8ccd1;
+    background-color: #eaecf0;
 }
 .log {
     padding: 10px 30px;

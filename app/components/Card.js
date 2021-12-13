@@ -5,10 +5,10 @@ import styles from '../styles/Card.module.css'
 export default function Card(props) {
     return (
         <div className={styles.cardcontainer}>
-            <p>{props.title}</p>
+            <h4 className={styles.h4}>{props.title}</h4>
             <Image width="100%" height="100%" src={props.image} alt=""/>
             <p>{props.desc}</p>
-            <p>{props.price} euros</p>
+            <p className={styles.prices}>{props.price} euros</p>
         </div>
     )
 }

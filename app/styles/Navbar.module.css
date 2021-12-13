@@ -3,4 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.log {
+    padding: 10px 30px;
+    background-color: #36c;
+    border: none;
+    color: white;
+}
+.log:hover {
+    cursor: pointer;
+    background-color:#2a4b8d;
 }

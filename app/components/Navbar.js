@@ -9,11 +9,11 @@ export default function Navbar() {
                 <p>Menu</p>
                 <div>
                     { user ? (
-                        <button>
+                        <button className={styles.log}>
                             Logout
                         </button>
                     ) : (
-                        <button>
+                        <button className={styles.log}>
                             Login
                         </button>
                     )}

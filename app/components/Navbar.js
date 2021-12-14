@@ -5,9 +5,8 @@ export default function Navbar() {
     const [user, setUser] = useState(null);
     return (
         <div className={styles.navcontainer}>
-                <h3>NFT Marketplace</h3>
+                <h3><a href="/">NFT Marketplace</a></h3>
                 <p>Menu</p>
-                <a href="/toto">Test</a>
                 <div>
                     { user ? (
                         <button className={styles.log, styles.blue}>

@@ -13,9 +13,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.container}>
-        <Navbar/>
+        
+        { <Navbar/> }
 
-        <Marketplace/>
+        { <Marketplace/> } 
       </main>
 
     </div>

@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <div className={styles.navcontainer}>
                 <h3><a href="/">NFT Marketplace</a></h3>
-                <p>Menu</p>
+                {/*<p>Menu</p>*/}
                 <div>
                     { user ? (
                         <button className={styles.log, styles.blue}>
